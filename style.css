@@ -49,19 +49,9 @@ img {
     width: 3em;
 }
 
-@page {
-    size: A4;
-}
-
 @media print {
     .page-break {
         break-before: page;
-    }
-
-    html,
-    body {
-        width: 210mm;
-        height: 297mm;
     }
 }
 
