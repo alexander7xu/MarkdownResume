@@ -1,0 +1,74 @@
+html {
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0em;
+    padding: 0em;
+}
+
+h2 {
+    border-bottom: 0.1em solid #ccc !important;
+    margin-bottom: 0em !important;
+    margin-top: 1em !important;
+    padding: 0em !important;
+    position: relative;
+    cursor: text;
+    font-weight: bold;
+    font-size: 1.25em !important;
+    line-height: 1.25;
+}
+
+h1 {
+    border: 0em !important;
+    position: relative;
+    font-weight: bold;
+    font-size: 2em !important;
+    line-height: 0;
+}
+
+p {
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important;
+}
+
+ul,
+ol {
+    padding-left: 1em;
+}
+
+img {
+    float: left;
+    padding: 0 auto;
+    margin-right: 0.5em;
+    margin-top: 0.4em;
+    width: 3em;
+}
+
+@page {
+    size: A4;
+}
+
+@media print {
+    .page-break {
+        break-before: page;
+    }
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+.right {
+    float: right;
+}
+
+.material-icons {
+    font-size: 1em;
+}
