@@ -1,6 +1,6 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
-<style> html {padding: 2em 1em; font-size: 13px} </style>
+<style>html{ padding: 2em 1em; font-size: 13px; zoom: 95%; } @page{ size: A4; }</style>
 
 <center>
 <h1>Name</h1>
